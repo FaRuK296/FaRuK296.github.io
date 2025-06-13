@@ -14,21 +14,19 @@ Heute habe ich angefangen, meine persönliche Webseite mit HTML und zu gestalten
 
 ## 13.6
 
-- [ ] Mehr Inhalt zum Html einfügen
-- [ ] Navigation einbauen, die Seite besser strukturieren
-- [ ] Mithilfe vonn CSS ein schönes Design machen
-- [ ] Bilder in die Webseite einfügen
+- [x] Mehr Inhalt zum Html einfügen
+- [x] Navigation einbauen, die Seite besser strukturieren
+- [x] Mithilfe vonn CSS ein schönes Design machen
+- [x] Bilder in die Webseite einfügen
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich an meiner Webseite weitergearbeitet und verschiedene Verbesserungen gemacht. Ich habe ein Bild von mir eingefügt, die Navigation ausprobiert und das Layout moderner gestaltet, z. B. mit runden Ecken, Schatten und Farben. Ich habe gelernt, wie man mit CSS eine Navigationsleiste oben festklebt (sticky) und wie man Abschnitte schöner aussehen lässt. Jetzt wirkt meine Webseite nicht mehr so basic, sondern viel professioneller.
 
-☝️ Vergessen Sie nicht, Ihre angepasste Website auf github hochzuladen
 
 ## 20.7
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Den Inhalt mit HTML erweitern, mehr Abschnitte machen
+- [ ] Mehr Bilder mithilfe von img src einfügen
+- [ ] Den CSS Code erwitern um ein noch besseres Design hinzukriegen
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
