@@ -11,14 +11,13 @@
 
 Heute habe ich angefangen, meine persönliche Webseite mit HTML und zu gestalten. Ich habe einen Entwurf auf Papier gezeichnet und den Text für meine Startseite geschrieben. In Visual Studio Code habe ich die Datei index.html erstellt und Sachen wie „Über mich“ eingefügt. Ausserdem habe ich Live Server installiert, damit ich meine Änderungen direkt im Browser sehen kann. Ich habe CSS noch nicht bearbeitet, weil ich mich heute auf HTML und die Skizze konzentriert habe.
 
-☝️ Vergessen Sie nicht, Ihr angepasstes `index.html` und eine Datei mit Ihren Texten hochzuladen.
 
 ## 13.6
 
-- [ ] Bilder in die Webseite einfügen
-- [ ] Navigation einbauen, die seite besser strukturieren
-- [ ] Mithilfe vonn CSS ein schönes Design machen
 - [ ] Mehr Inhalt zum Html einfügen
+- [ ] Navigation einbauen, die Seite besser strukturieren
+- [ ] Mithilfe vonn CSS ein schönes Design machen
+- [ ] Bilder in die Webseite einfügen
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
