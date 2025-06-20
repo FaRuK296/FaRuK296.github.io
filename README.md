@@ -24,13 +24,9 @@ Heute habe ich an meiner Webseite weitergearbeitet und verschiedene Verbesserung
 
 ## 20.7
 
-- [ ] Den Inhalt mit HTML erweitern, mehr Abschnitte machen
-- [ ] Mehr Bilder mithilfe von img src einfügen
-- [ ] Den CSS Code erwitern um ein noch besseres Design hinzukriegen
-
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, Ihre angepasste Website auf github hochzuladen
+- [x] Den Inhalt mit HTML erweitern, mehr Abschnitte machen
+- [x] Mehr Bilder mithilfe von img src einfügen
+- [x] Den CSS Code erwitern um ein noch besseres Design hinzukriegen
 
 ## 27.7 Abschluss
 
