@@ -28,7 +28,7 @@ Heute habe ich an meiner Webseite weitergearbeitet und verschiedene Verbesserung
 - [x] Mehr Bilder mithilfe von img src einfügen
 - [x] Den CSS Code erwitern um ein noch besseres Design hinzukriegen
 
-Heute habe ich meine Webpage einbisschen erweitert. Danach musste ich Von zwei anderen Schürern die Webseite bwerten. Es Ist interesaant wenn man sieht wie andere es machen und das hat mir am heutigen Unterricht gefallen. Man sieht auch wie jeder eine eigene Ansaicht hat Zum Beispiel würde mich eine Person einstellen, die andere die meine Webseite bewertet hat würde es aber nicht machen. Jetzt weiss ich was ich beim nöächsten mal noch ändern muss. Es hilft immer, Rückmeldungen von anderen zu bekommen.
+Heute habe ich meine Webpage ein bisschen erweitert. Danach musste ich von zwei anderen Schülern die Webseite bewerten. Es ist interessant, wenn man sieht, wie andere es machen, und das hat mir am heutigen Unterricht gefallen. Man sieht auch, wie jeder eine eigene Ansicht hat. Zum Beispiel würde mich eine Person einstellen, die andere, die meine Webseite bewertet hat, würde es aber nicht machen. Jetzt weiss ich, was ich beim nächsten Mal noch ändern muss. Es hilft immer, Rückmeldungen von anderen zu bekommen.
 
 ## 27.7 Abschluss
 
