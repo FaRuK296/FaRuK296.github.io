@@ -32,7 +32,7 @@ Heute habe ich meine Webpage ein bisschen erweitert. Danach musste ich von zwei 
 
 ## 27.7 Abschluss
 
-- [ ] „Über mich“ erweitern: Kurzen Absatz in vollständigen Sätzen schreiben z. B. warum Webentwicklung interessiert
+- [x] „Über mich“ erweitern: Kurzen Absatz in vollständigen Sätzen schreiben z. B. warum Webentwicklung interessiert
 - [ ] GitHub-Projekte verlinken: Eigene Projekte kurz mit zwei Sätzen beschreiben
 
 
