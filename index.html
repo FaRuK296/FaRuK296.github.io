@@ -8,73 +8,147 @@
 <body>
 
   <header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#uber-mich">Über mich</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#projekte">Projekte</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
 
-<nav class="navbar">
-  <ul>
-    <li><a href="#uber-mich">Über mich</a></li>
-    <li><a href="#cv">CV</a></li>
-    <li><a href="#projekte">Projekte</a></li>
-    <li><a href="#kontakt">Kontakt</a></li>
-  </ul>
-</nav>
+  <div class="hero">
+    <p class="hero-kicker">IMS-Schüler & angehender Informatiker</p>
 
+    <h1>Faruk Hodzic</h1>
 
-   <div class="hero">
+    <p class="hero-text">
+      Ich entwickle Softwareprojekte mit Fokus auf Benutzerfreundlichkeit,
+      sauberen Code und kreativen Lösungen.
+    </p>
 
-    <div class="hero-text">
-        <h1>Faruk Hodzic</h1>
-        <p>Kreativ im Denken, präzise im Coden.</p>
+   
+
+      <a href="#projekte" class="hero-button secondary">
+        Projekte ansehen
+      </a>
     </div>
-
-</div>
-
-
-  </header>
+ 
+</header>
 
   <main>
-    <section id="uber-mich">
-      <h2>Über mich</h2>
-      <p>
-Ich besuche zurzeit die Informatikmittelschule (IMS). Besonders interessiere ich
-mich für Programmierung. Ich bin motiviert, lernbereit und arbeite gerne
-selbstständig sowie im Team. 
-      </p>
-    </section>
+<section id="uber-mich">
+  <h2>Über mich</h2>
 
-    <section id="cv">
-      <h2>CV</h2>
+  <div class="about-grid">
+    <div class="about-box">
+      <h3>Ausbildung</h3>
       <p>
-  <a href="Lebenslauf_Faruk_Hodzic.pdf" target="_blank">
-    Mein Lebenslauf
-  </a>
-</p>
-    </section>
+        Ich besuche zurzeit die Informatikmittelschule und baue dort meine Grundlagen
+        in Programmierung, Webentwicklung und Softwareentwicklung auf. Mein Ziel ist es, mich in diesen Bereichen weiterzuentwickeln und praktische Erfahrungen zu sammeln.
+      </p>
+    </div>
+
+    <div class="about-box">
+      <h3>Interessen</h3>
+      <p>
+        Besonders interessieren mich Webentwicklung, Benutzeroberflächen und praktische
+        Anwendungen, die ein echtes Problem lösen oder den Alltag vereinfachen. für mich ist es wichtig, dass meine Projekte nicht nur technisch gut umgesetzt sind, sondern auch einen Mehrwert für die Nutzer bieten.
+      </p>
+    </div>
+
+    <div class="about-box">
+      <h3>Projekt-Erfahrung</h3>
+      <p>
+        Besonders stolz bin ich auf mein Projekt Kicky FH, eine Webseite für Fussballresultate
+        aus den Top-5-Ligen. Dabei konnte ich Technik, Design und Benutzerfreundlichkeit verbinden. Es war eine tolle Gelegenheit, mein Hobby und Vorlieben in einem Informatik-Projekt anzuwenden und weiterzuentwickeln.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="cv">
+    <h2>CV</h2>
+
+    <div class="cv-card">
+
+        <img src="cvIcon.png" alt="CV" class="cv-image">
+
+        <p>Hier finden Sie meinen aktuellen Lebenslauf.</p>
+
+        <a href="Lebenslauf_Faruk_Hodzic.pdf"
+           target="_blank"
+           class="project-button">
+           CV ansehen
+        </a>
+
+    </div>
+</section>
+
+
 
     <section id="projekte">
-      <h2>Projekte</h2>
+    <h2>Projekte</h2>
 
-      <article>
-        <h3>Kicky FH</h3>
-        <p>Webseite um Fussballresultate aus den Top 5 Ligen aufzurufen.</p>
-        <a href="https://github.com/FaRuK296/Lern-Periode-7" target="_blank" class="cv-button">KickyFH</a>
-      </article>
- 
-      <article>
-        <h3>Bugdet Tracker</h3>
-        <p>Konsolenapplikation zum Verfolgen von Einnahmen, Ausgaben.</p>
-      </article>
+    <div class="projects">
 
-      <article>
-        <h3>LEGO Ninjago</h3>
-        <p>Konsolenapplikation in Objektorientierter Programmierung.</p>
-      </article>
-    </section>
+        <article class="project-card">
+          <img src="Kicky.png" alt="Kicky FH Screenshot" class="project-image">
+            <h3>Kicky FH</h3>
+            <p>Webseite, um Fussballresultate aus den Top-5-Ligen aufzurufen.</p>
 
-    <section id="kontakt">
-      <h2>Kontakt</h2>
-      <p>E-Mail: farukhodzic.29@icloud.com</p>
-      <p>GitHub: <a href="https://github.com/FaRuK296">FaRuK296</a></p>
-    </section>
+            <a href="https://github.com/FaRuK296/Lern-Periode-7"
+               target="_blank"
+               class="project-button">
+               Kicky FH ansehen
+            </a>
+        </article>
+
+        <article class="project-card">
+          <img src="BudgetTracker.png" alt="Budget Tracker Screenshot" class="project-image">
+            <h3>Budget Tracker</h3>
+            <p>Konsolenapplikation zum Verfolgen von Einnahmen und Ausgaben.</p>
+
+            <a href="https://github.com/FaRuK296/Lern-Periode-4"
+               target="_blank"
+               class="project-button">
+               Budget Tracker ansehen
+            </a>
+        </article>
+
+        <article class="project-card">
+          <img src="Ninjago.png" alt="LEGO Ninjago Screenshot" class="project-image">
+            <h3>LEGO Ninjago</h3>
+            <p>Konsolenapplikation mit objektorientierter Programmierung.</p>
+
+            <a href="https://github.com/FaRuK296/Lernperiode-6"
+               target="_blank"
+               class="project-button">
+               LEGO Ninjago ansehen
+            </a>
+        </article>
+
+    </div>
+</section>
+
+<section id="kontakt">
+  <h2>Kontakt</h2>
+
+  <div class="contact-card">
+    <p>Sie können mich gerne per E-Mail kontaktieren oder mein GitHub-Profil ansehen.</p>
+
+    <div class="contact-buttons">
+      <a href="mailto:farukhodzic.29@icloud.com" class="contact-button">
+        ✉️ E-Mail schreiben
+      </a>
+
+      <a href="https://github.com/FaRuK296" target="_blank" class="contact-button">
+        <img src="2111432.png" alt="GitHub" class="button-icon">
+        GitHub ansehen
+      </a>
+    </div>
+  </div>
+</section>
   </main>
 
 </body>
