@@ -213,7 +213,7 @@ h1 span {
 }
 
 /* ==================================================
-   06. Code-Illustration und Sticker
+   06. Code-Illustration
    ================================================== */
 
 .creative-board {
@@ -290,38 +290,6 @@ h1 span {
   color: #a3ad95;
   font-size: 11px;
   padding-top: 12px;
-}
-
-.sticker {
-  position: absolute;
-  z-index: 1;
-  font: 700 11px Consolas, monospace;
-  letter-spacing: .5px;
-  border: 1px solid var(--ink);
-  padding: 14px 18px;
-  box-shadow: 3px 3px 0 var(--ink);
-}
-
-.sticker-top {
-  top: 8px;
-  right: 3px;
-  background: var(--purple);
-  transform: rotate(8deg);
-}
-
-.sticker-bottom {
-  bottom: 5px;
-  left: 15px;
-  background: var(--lime);
-  transform: rotate(-7deg);
-}
-
-.board-caption {
-  position: absolute;
-  bottom: -35px;
-  right: 8px;
-  font: 9px Consolas, monospace;
-  letter-spacing: 1px;
 }
 
 /* ==================================================
@@ -462,13 +430,6 @@ h2 {
   transform: rotate(0) translateY(-4px);
 }
 
-.art-label {
-  position: absolute;
-  bottom: 14px;
-  right: 20px;
-  font: italic 17px Georgia, serif;
-}
-
 .project-info {
   padding: 30px 32px;
   display: flex;
@@ -556,12 +517,6 @@ h3 {
   color: #7955ad;
   vertical-align: middle;
   transform: rotate(10deg);
-}
-
-.hand-note {
-  font: italic 19px Georgia, serif;
-  transform: rotate(-4deg);
-  margin-top: 5px;
 }
 
 .about-stories article {
@@ -793,10 +748,6 @@ footer > a:last-child {
     min-height: 340px;
   }
 
-  .sticker {
-    font-size: 9px;
-  }
-
   .about-layout {
     gap: 45px;
   }
@@ -883,11 +834,6 @@ footer > a:last-child {
     font-size: 11px;
   }
 
-  .board-caption {
-    font-size: 8px;
-    bottom: -24px;
-  }
-
   .interest-strip .wrap {
     flex-wrap: wrap;
     justify-content: center;
@@ -946,7 +892,7 @@ footer > a:last-child {
     gap: 35px;
   }
 
-  .about-symbol, .hand-note {
+  .about-symbol {
     display: none;
   }
 
@@ -1053,15 +999,6 @@ footer > a:last-child {
 
   .code-comment {
     font-size: 9px;
-  }
-
-  .sticker-top {
-    top: 0;
-  }
-
-  .sticker-bottom {
-    font-size: 9px;
-    left: 0;
   }
 
   .projects {
