@@ -2,155 +2,78 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Faruk Hodzic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Faruk Hodzic – IMS-Schüler, angehender Informatiker und Entwickler kreativer Softwareprojekte.">
+  <meta name="theme-color" content="#f5f2e9">
+  <title>Faruk Hodzic — Ideen werden Code.</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-
-  <header>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#uber-mich">Über mich</a></li>
-      <li><a href="#cv">CV</a></li>
-      <li><a href="#projekte">Projekte</a></li>
-      <li><a href="#kontakt">Kontakt</a></li>
-    </ul>
-  </nav>
-
-  <div class="hero">
-    <p class="hero-kicker">IMS-Schüler & angehender Informatiker</p>
-
-    <h1>Faruk Hodzic</h1>
-
-    <p class="hero-text">
-      Ich entwickle Softwareprojekte mit Fokus auf Benutzerfreundlichkeit,
-      sauberen Code und kreativen Lösungen.
-    </p>
-
-   
-
-      <a href="#projekte" class="hero-button secondary">
-        Projekte ansehen
-      </a>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <header id="start">
+    <nav class="navbar wrap" aria-label="Hauptnavigation">
+      <a class="brand" href="#start" aria-label="Faruk Hodzic – Startseite">fh</a>
+      <ul>
+        <li><a href="#uber-mich">Über mich</a></li>
+        <li><a href="#projekte">Projekte</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a class="nav-contact" href="#kontakt">Sag Hallo <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+    <div class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> FARUK HODZIC / PORTFOLIO</p>
+        <h1>Neugierig im Kopf.<br><span>Kreativ im Code.</span></h1>
+        <p class="hero-text">Hi, ich bin Faruk. IMS-Schüler, angehender Informatiker und immer auf der Suche nach der nächsten guten Idee.</p>
+        <a class="button dark" href="#projekte">Meine Projekte entdecken <span aria-hidden="true">↘</span></a>
+        <p class="hero-note">Von der ersten Idee bis zum letzten Semikolon.</p>
+      </div>
+      <div class="creative-board" aria-label="Illustration: Aus Ideen entstehen Softwareprojekte">
+        <div class="board-grid" aria-hidden="true"></div>
+        <span class="sticker sticker-top">IDEEN → CODE → AHA!</span>
+        <div class="code-window">
+          <div class="window-bar"><span aria-hidden="true">● ● ●</span><span>faruk.js</span><span aria-hidden="true">↗</span></div>
+          <div class="code-content"><p><span class="code-purple">const</span> entwickler = {</p><p>&nbsp; name: <span class="code-green">"Faruk"</span>,</p><p>&nbsp; antrieb: <span class="code-green">"Neugier"</span>,</p><p>&nbsp; ideen: <span class="code-orange">Infinity</span></p><p>};</p><p class="code-comment">// Lernen. Bauen. Weiterdenken.</p></div>
+        </div>
+        
+        <span class="sticker sticker-bottom">Mit Kopf. Mit Herz. Mit Code.</span>
+        <span class="board-caption">WORK IN PROGRESS. UND STOLZ DARAUF.</span>
+      </div>
     </div>
- 
-</header>
-
-  <main>
-<section id="uber-mich">
-  <h2>Über mich</h2>
-
-  <div class="about-grid">
-    <div class="about-box">
-      <h3>Ausbildung</h3>
-      <p>
-        Ich besuche zurzeit die Informatikmittelschule und baue dort meine Grundlagen
-        in Programmierung, Webentwicklung und Softwareentwicklung auf. Mein Ziel ist es, mich in diesen Bereichen weiterzuentwickeln und praktische Erfahrungen zu sammeln.
-      </p>
-    </div>
-
-    <div class="about-box">
-      <h3>Interessen</h3>
-      <p>
-        Besonders interessieren mich Webentwicklung, Benutzeroberflächen und praktische
-        Anwendungen, die ein echtes Problem lösen oder den Alltag vereinfachen. für mich ist es wichtig, dass meine Projekte nicht nur technisch gut umgesetzt sind, sondern auch einen Mehrwert für die Nutzer bieten.
-      </p>
-    </div>
-
-    <div class="about-box">
-      <h3>Projekt-Erfahrung</h3>
-      <p>
-        Besonders stolz bin ich auf mein Projekt Kicky FH, eine Webseite für Fussballresultate
-        aus den Top-5-Ligen. Dabei konnte ich Technik, Design und Benutzerfreundlichkeit verbinden. Es war eine tolle Gelegenheit, mein Hobby und Vorlieben in einem Informatik-Projekt anzuwenden und weiterzuentwickeln.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section id="cv">
-    <h2>CV</h2>
-
-    <div class="cv-card">
-
-        <img src="cvIcon.png" alt="CV" class="cv-image">
-
-        <p>Hier finden Sie meinen aktuellen Lebenslauf.</p>
-
-        <a href="Lebenslauf_Faruk_Hodzic.pdf"
-           target="_blank"
-           class="project-button">
-           CV ansehen
-        </a>
-
-    </div>
-</section>
-
-
-
-    <section id="projekte">
-    <h2>Projekte</h2>
-
-    <div class="projects">
-
-        <article class="project-card">
-          <img src="Kicky.png" alt="Kicky FH Screenshot" class="project-image">
-            <h3>Kicky FH</h3>
-            <p>Webseite, um Fussballresultate aus den Top-5-Ligen aufzurufen.</p>
-
-            <a href="https://github.com/FaRuK296/Lern-Periode-7"
-               target="_blank"
-               class="project-button">
-               Kicky FH ansehen
-            </a>
+    <div class="interest-strip" aria-label="Meine Interessen"><div class="wrap"><span>WEBENTWICKLUNG</span><b aria-hidden="true">/</b><span>KREATIVE IDEEN</span><b aria-hidden="true">/</b><span>SOFTWARE</span><b aria-hidden="true">/</b><span>FUSSBALL</span><b aria-hidden="true">/</b></div></div>
+  </header>
+  <main id="inhalt" tabindex="-1">
+    <section id="projekte" class="section wrap">
+      <div class="section-heading"><div><p class="eyebrow">01 / AUS IDEEN WIRD ETWAS</p><h2>Gebaut. Gelernt.<br><span>Weitergedacht.</span></h2></div><p>Ein Einblick in meine Projekte.<br>Jedes davon ein neuer Schritt.</p></div>
+      <div class="projects">
+        <article class="project-card featured">
+          <div class="project-art football-art"><span class="project-number">PROJEKT 01</span><img src="Kicky.png" alt="Ansicht der Fussball-Webseite Kicky FH" loading="lazy"><span class="art-label">Für die Liebe zum Spiel. ⚽</span></div>
+          <div class="project-info"><div class="tags"><span>Webentwicklung</span><span>Fussball</span></div><h3>Kicky FH</h3><p>Fünf Top-Ligen. Ein Ort für die Resultate. Hier treffen meine Begeisterung für Fussball und Webentwicklung aufeinander.</p><a class="project-link" href="https://github.com/FaRuK296/Lern-Periode-7" target="_blank" rel="noopener noreferrer">Projekt auf GitHub <span aria-hidden="true">↗</span></a></div>
         </article>
-
         <article class="project-card">
-          <img src="BudgetTracker.png" alt="Budget Tracker Screenshot" class="project-image">
-            <h3>Budget Tracker</h3>
-            <p>Konsolenapplikation zum Verfolgen von Einnahmen und Ausgaben.</p>
-
-            <a href="https://github.com/FaRuK296/Lern-Periode-4"
-               target="_blank"
-               class="project-button">
-               Budget Tracker ansehen
-            </a>
+          <div class="project-art budget-art"><span class="project-number">PROJEKT 02</span><img src="BudgetTracker.png" alt="Konsolenansicht des Budget Trackers" loading="lazy"></div>
+          <div class="project-info"><div class="tags"><span>Konsolenapplikation</span><span>Alltagshelfer</span></div><h3>Budget Tracker</h3><p>Einnahmen und Ausgaben im Blick behalten. Eine praktische Anwendung für mehr Überblick im Alltag.</p><a class="project-link" href="https://github.com/FaRuK296/Lern-Periode-4" target="_blank" rel="noopener noreferrer">Projekt auf GitHub <span aria-hidden="true">↗</span></a></div>
         </article>
-
         <article class="project-card">
-          <img src="Ninjago.png" alt="LEGO Ninjago Screenshot" class="project-image">
-            <h3>LEGO Ninjago</h3>
-            <p>Konsolenapplikation mit objektorientierter Programmierung.</p>
-
-            <a href="https://github.com/FaRuK296/Lernperiode-6"
-               target="_blank"
-               class="project-button">
-               LEGO Ninjago ansehen
-            </a>
+          <div class="project-art ninja-art"><span class="project-number">PROJEKT 03</span><img src="Ninjago.png" alt="Konsolenansicht des LEGO-Ninjago-Projekts" loading="lazy"></div>
+          <div class="project-info"><div class="tags"><span>Objektorientierung</span><span>Konsolenapplikation</span></div><h3>LEGO Ninjago</h3><p>Spielerisch in die Welt der objektorientierten Programmierung eintauchen – mit einem Thema, das Spass macht.</p><a class="project-link" href="https://github.com/FaRuK296/Lernperiode-6" target="_blank" rel="noopener noreferrer">Projekt auf GitHub <span aria-hidden="true">↗</span></a></div>
         </article>
-
-    </div>
-</section>
-
-<section id="kontakt">
-  <h2>Kontakt</h2>
-
-  <div class="contact-card">
-    <p>Sie können mich gerne per E-Mail kontaktieren oder mein GitHub-Profil ansehen.</p>
-
-    <div class="contact-buttons">
-      <a href="mailto:farukhodzic.29@icloud.com" class="contact-button">
-        ✉️ E-Mail schreiben
-      </a>
-
-      <a href="https://github.com/FaRuK296" target="_blank" class="contact-button">
-        <img src="2111432.png" alt="GitHub" class="button-icon">
-        GitHub ansehen
-      </a>
-    </div>
-  </div>
-</section>
+      </div>
+    </section>
+    <section id="uber-mich" class="about-section">
+      <div class="wrap about-layout"><div><p class="eyebrow">02 / DER KOPF DAHINTER</p><h2>Mehr als<br><span>nur Code.</span></h2><div class="about-symbol" aria-hidden="true">{<span>/</span>}</div><p class="hand-note">Neugier ist mein Antrieb.</p></div><div class="about-stories">
+        <article><span class="story-number">01</span><div><h3>Lernen, um Dinge zu bewegen.</h3><p>An der Informatikmittelschule baue ich meine Grundlagen in Programmierung und Softwareentwicklung auf. Am liebsten wende ich Neues direkt in eigenen Projekten an.</p></div></article>
+        <article><span class="story-number">02</span><div><h3>Technik mit einem guten Gefühl.</h3><p>Mich begeistern Webentwicklung und Benutzeroberflächen. Ich möchte Anwendungen gestalten, die einfach zu bedienen sind und im Alltag wirklich helfen.</p></div></article>
+        <article><span class="story-number">03</span><div><h3>Hobbys werden zu Projekten.</h3><p>Mit Kicky FH habe ich meine Begeisterung für Fussball in eine Webseite verwandelt. Genau diese Verbindung aus persönlichem Interesse, Technik und Design motiviert mich.</p></div></article>
+      </div></div>
+    </section>
+    <section id="cv" class="section wrap">
+      <div class="cv-card"><div class="cv-paper" aria-hidden="true"><span>FH.</span><i></i><i></i><i></i><b>MEIN WEG ↗</b></div><div class="cv-copy"><p class="eyebrow">03 / MEIN WEG BISHER</p><h2>Die Details?<br>Stehen im Lebenslauf.</h2><p>Meine Ausbildung und mein bisheriger Weg – kompakt als PDF.</p></div><a class="button dark" href="Lebenslauf_Faruk_Hodzic.pdf" target="_blank" rel="noopener noreferrer">CV ansehen <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section id="kontakt" class="contact-section"><div class="wrap"><p class="eyebrow">04 / LASS UNS INS GESPRÄCH KOMMEN</p><h2>Gute Ideen beginnen<br>mit einem <em>Hallo.</em></h2><p>Eine Frage, eine Idee oder einfach neugierig?<br>Ich freue mich auf deine Nachricht.</p><div class="contact-buttons"><a class="button cream" href="mailto:farukhodzic.29@icloud.com">E-Mail schreiben <span aria-hidden="true">↗</span></a><a class="github-link" href="https://github.com/FaRuK296" target="_blank" rel="noopener noreferrer">Mein GitHub <span aria-hidden="true">↗</span></a></div></div></section>
   </main>
-
-  <script src="script.js"></script>
+  <footer class="wrap"><a class="brand" href="#start" aria-label="Zurück zum Anfang">fh</a><p>Mit Neugier entwickelt. Faruk Hodzic.</p><a href="#start">Zurück nach oben ↑</a></footer>
 </body>
 </html>
+
